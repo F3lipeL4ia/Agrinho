@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    height: 100vh;
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    width: 100%;
+    padding: 550px 0%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+header i{
+    color: #fff;
+}
+header ul{
+    list-style-type: none;
+}
+header ul li{
+    display: inline-block;
+    margin:  0 40px;
+}
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.botao-instagram button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: #16db7800;
+    cursor: pointer;
+    transition: .2s;
+}
+.fundo{
+    height: 100vh;
+    background-image: url(background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fundo h1{
+    color: rgb(60, 223, 128);
+    font-size: 4em;
+}
+.fundo h1 span{
+    color: #f8ffc8;
+}
