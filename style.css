@@ -38,7 +38,7 @@ header ul li a{
     text-decoration: none;
 }
 .botao-instagram button{
-    width: 120px;
+    width: 60px;
     height: 40px;
     border: 0;
     background-color: #16db7800;
@@ -61,4 +61,43 @@ header ul li a{
 }
 .fundo h1 span{
     color: #f8ffc8;
+}
+header div div{
+    text-align: center;
+}
+.botao-instagram img {
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.botao-instagram:hover img {
+    transform: scale(1.2); 
+}
+header a img {
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+header a:hover img {
+    transform: scale(1.2);
+}
+.texto-container {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.texto-container:hover {
+    transform: scale(1.2);
+}
+header ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+header ul li:hover {
+    transform: scale(1.2);
 }
