@@ -114,3 +114,6 @@ header ul li {
 header ul li:hover {
     transform: scale(1.2);
 }
+header ul li a:hover {
+    color: rgba(32, 241, 49, 0.863);
+}
