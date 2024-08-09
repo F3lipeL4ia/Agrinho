@@ -61,3 +61,27 @@ body {
 .Menu a:hover img {
     transform: scale(1.2);
 }
+.janela {
+    border: 4px solid rgba(201, 201, 8, 0.363);
+    padding: 10px;
+    width: fit-content;
+    background-color: #ddd;
+}
+@media (max-width: 768px) {
+    .Header, .nav, .footer {
+        text-align: center;
+    }
+
+    .nav a {
+        float: none;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .container {
+        width: 90%;
+        max-width: none;
+        max-height: 60vh;
+        padding: 15px;
+    }
+}

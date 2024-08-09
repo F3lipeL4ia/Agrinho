@@ -61,3 +61,34 @@ body {
 .Menu a:hover img {
     transform: scale(1.2);
 }
+.CesjImg {
+    position: absolute;
+    right: 400px;
+}
+@media (max-width: 768px) {
+    .Header, .nav, .footer {
+        text-align: center;
+    }
+
+    .nav a {
+        float: none;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .container {
+        width: 90%;
+        max-width: none;
+        max-height: 60vh;
+        padding: 15px;
+    }
+}
+.Logo-Cesj{
+    height: 500px;
+    background-image: url(cesj.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
