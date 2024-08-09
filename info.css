@@ -1,49 +1,110 @@
+:root{
+    --cor1: #ecfadd;
+    --cor2: #BCFA5F;
+    --cor3: #56a700;
+    --cor4: #267100;
+    --cor5: #007200;
+    --cor6: #37633e;
+    --cor7: rgb(0, 192, 0);
+}
+.Header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+.nav {
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor5));
+    overflow: hidden;
+    text-align: center;
+}
+
+.nav a {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+.nav a:hover {
+    background-color: var(--cor7);
+    color: var(--cor6);
+}
+
+.titulo_principal{
+    text-align: center;
+    font-size: 2em;
+    margin: auto;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
-}
-
-.Header {
-    background-color: #287908;
-    padding: 20px;
-    text-align: center;
-    color: white;
 }
 
 .Header img {
     max-width: 150px;
 }
 
-.nav {
-    background-color: #267407;
-    overflow: hidden;
+main{
+    width: 100%;  /* Use relative width for responsiveness */
+    max-width: 1200px;
+    max-height: 80vh;  /* Control the height relative to the viewport */
+    background-color: rgba(20, 131, 70, 0.1);
+    color: black;
+    overflow-y: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 3px solid rgba(8, 90, 65, 0.3);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    backdrop-filter: blur(10px);
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.817);
 }
 
-.nav a {
-    float: left;
-    display: block;
-    color: white;
+article{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.titulo_principal{
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    font-size: 2em;
+    margin: auto;
 }
 
-.nav a:hover {
-    background-color: #035f08;
-    color: white;
+.container_imagens{
+    width: 100%;
+    max-width: 700px;
+    min-width: 280px;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .footer {
     padding: 40px;
     text-align: left;
-    background-color: #ddd;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url(background.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .Menu {
     position: fixed;
-    top: 0;
+    bottom: 0;
     left: 0;
     background: none;
     padding: 10px;
