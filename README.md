@@ -6,17 +6,16 @@ Colégio Estadual São José
 - [Descrição](#descrição)
 - [Acesso ao Site](#acesso-ao-site)
 - [Navegação no Site](#navegação-no-site)
-- [Funcionalidades](#funcionalidades)
 - [Licença](#licença)
 
 ## Descrição
 
-Este site é dedicado a apresentar informações sobre os avanços que vem ocorrendo atualmente no campo.
+Este site é dedicado a apresentar informações sobre os avanços que vem ocorrendo atualmente no campo, além das novas oportunidades de trabalho e dos valores atuais dos produtos.
 
 
 ## Acesso ao Site
 
-Para acessar o site , basta seguir o link: [Agrinho.com](https://agrinho-project-three.vercel.app)
+Para acessar o site , basta seguir o link: [Agrinho.com](https://f3lipel4ia.github.io/Agrinho/)
 
 
 ## Navegação no Site
